@@ -10,13 +10,9 @@
             padding: 0;
             font-size: 12pt;
             position: relative;
-            width: 100%;
-            height: 100%;
         }
 
         #canvas {
-            image-rendering: optimizeSpeed;
-            -webkit-interpolation-mode: nearest-neighbor;
             position: relative;
             left: 0;
             right: 0;
@@ -24,8 +20,8 @@
             bottom: 0;
             margin: auto;
             border: 0;
-            width: 100%;
-            height: 100%;
+            width: 320px;
+            height: 480px;
         }
 
         #game {
